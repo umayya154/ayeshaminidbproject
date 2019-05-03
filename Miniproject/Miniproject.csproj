@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{76DD3962-51CF-4D7B-8680-9EF07EB210FF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Miniproject</RootNamespace>
+    <AssemblyName>Miniproject</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>.\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.pdfa">
+      <HintPath>.\itextsharp.pdfa.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp.xtra">
+      <HintPath>.\itextsharp.xtra.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProjectBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ProjectBDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProjectBDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ProjectBDataSet.xsc">
+      <DependentUpon>ProjectBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet.xss">
+      <DependentUpon>ProjectBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet1.xsc">
+      <DependentUpon>ProjectBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet1.xss">
+      <DependentUpon>ProjectBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet10.xsc">
+      <DependentUpon>ProjectBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet10.xss">
+      <DependentUpon>ProjectBDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet11.xsc">
+      <DependentUpon>ProjectBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet11.xss">
+      <DependentUpon>ProjectBDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet12.xsc">
+      <DependentUpon>ProjectBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet12.xss">
+      <DependentUpon>ProjectBDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet13.xsc">
+      <DependentUpon>ProjectBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet13.xss">
+      <DependentUpon>ProjectBDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet14.xsc">
+      <DependentUpon>ProjectBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet14.xss">
+      <DependentUpon>ProjectBDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet2.xsc">
+      <DependentUpon>ProjectBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet2.xss">
+      <DependentUpon>ProjectBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet3.xsc">
+      <DependentUpon>ProjectBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet3.xss">
+      <DependentUpon>ProjectBDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet4.xsc">
+      <DependentUpon>ProjectBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet4.xss">
+      <DependentUpon>ProjectBDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet5.xsc">
+      <DependentUpon>ProjectBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet5.xss">
+      <DependentUpon>ProjectBDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet6.xsc">
+      <DependentUpon>ProjectBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet6.xss">
+      <DependentUpon>ProjectBDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet7.xsc">
+      <DependentUpon>ProjectBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet7.xss">
+      <DependentUpon>ProjectBDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet8.xsc">
+      <DependentUpon>ProjectBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet8.xss">
+      <DependentUpon>ProjectBDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet9.xsc">
+      <DependentUpon>ProjectBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="ProjectBDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ProjectBDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ProjectBDataSet9.xss">
+      <DependentUpon>ProjectBDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
